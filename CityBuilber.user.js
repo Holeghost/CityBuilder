@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name CityBuilder
+// @description Upgrades City by Selection
+// @namespace       
+// @include         
+// @version 1.0
+// @author Holeghost
+// @grant none
+// ==/UserScript==
 function waitForClientLib() {
     qx = unsafeWindow.qx;
     ClientLib = unsafeWindow.ClientLib;
